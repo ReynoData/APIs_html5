@@ -1,0 +1,108 @@
+  body {
+    font-family: sans-serif;
+    background-image: url("nubes.jpg");
+    
+  }
+
+  
+  
+  h3 {
+    margin-top: 30pt;
+    color: rgb(237, 152, 24);
+    font-size: 22pt;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  #video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #video-preview {
+    margin-bottom: 20px;
+  }
+  
+  #video-input {
+    margin-top: 20px;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color:  rgb(237, 152, 24);
+  }
+  
+
+
+
+  button {
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color:  rgb(237, 152, 24);
+  }
+  
+  input[type="range"] {
+    width: 150px;
+    margin: 0 10px;
+    border-radius: 3pt ;
+    border: 1px solid rgb(237, 152, 24);
+  }
+  
+  input[type="range"] {
+    width: 150px;
+    margin: 0 10px;
+    border-radius: 3pt;
+    border: 5px solid  rgb(237, 152, 24); 
+   
+  }
+  
+
+  #volume-slider {
+    border: 1px solid rgb(227, 10, 10);
+    position: relative;
+   
+  }
+  
+  #volume-slider:before,
+  #volume-slider:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+   
+    border-radius: 50%;
+    text-align: top;
+    color: rgb(17, 16, 16);
+    font-size: 24px;
+    color:  rgb(237, 152, 24);
+  }
+  
+  #volume-slider:before {
+    left: -5pt;
+    content: "-";
+  }
+  
+  #volume-slider:after {
+    right: -10pt;
+    content: "+";
+  }
+
+  /*La foto fue tomada de href="https://unsplash.com/@billy_huy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Billy Huynh</a> en <a href="https://unsplash.com/es/fotos/v9bnfMCyKbg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  
